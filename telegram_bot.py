@@ -4,7 +4,6 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 with open('token.txt')as f:
     TOKEN = f.readline()
-# TOKEN = "1411763750:AAGaC6UcAzk6A9bt9V5BsCXW_4XSQ10a6_Q"
  
  
 class TelegramBot:
